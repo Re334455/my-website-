@@ -1,24 +1,5 @@
-<script>
-// বাটনের রঙ পরিবর্তন
-function changeColor(){
-    const colors=["green","blue","red","purple","orange"];
-    const btn=document.getElementById("colorBtn");
-    btn.style.background=colors[Math.floor(Math.random()*colors.length)];
-    btn.style.color="white";
-}
-
-// ডার্ক মোড
-function toggleMode(){
-    document.body.classList.toggle("dark");
-}
-
-// বর্তমান সময়
-function updateTime(){
-    const now=new Date();
-    document.getElementById("time").innerHTML=
-        now.toLocaleTimeString("bn-BD");
-}
-
-setInterval(updateTime,1000);
-updateTime();
-</script>
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+...</body>
+</html>
